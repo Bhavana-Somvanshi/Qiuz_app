@@ -1,0 +1,65 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Font */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+/* Main Section Styles */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(24, 128, 207);
+}
+
+/* Container Styles */
+.container {
+    width: 35rem;
+    box-shadow: 0 0 5px grey;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: 20px; /* Add margin for spacing */
+}
+
+/* Common Column Styles */
+.col {
+    text-align: justify;
+    padding: 15px;
+    width: 100%; /* Adjusted to 100% to make columns responsive */
+}
+
+/* Submit Button Styles */
+#submit {
+    width: 100%;
+    background-color: rgb(47, 8, 73);
+    transition: background-color 0.5s;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px; /* Add some space above the button */
+}
+
+#submit:hover {
+    background-color: rgb(34, 6, 53);
+}
+
+/* Box Styles */
+.box {
+    box-shadow: 0 1px 1px grey; /* Adjusted box shadow to make it look better */
+    width: 100%;
+}
